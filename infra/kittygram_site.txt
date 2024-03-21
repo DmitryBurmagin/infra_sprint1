@@ -1,5 +1,5 @@
- IP: 158.160.70.5;
- name_taski: https://taski.devburmagin.ru/;
- name_kittygram: https://kittygram.devburmagin.ru/;
- login: admin;
- password: 121212aA;
+IP: 158.160.70.5;
+name_taski: https://taski.devburmagin.ru/;
+name_kittygram: https://kittygram.devburmagin.ru/;
+login: admin;
+password: 121212aA;
