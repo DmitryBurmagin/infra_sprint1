@@ -1,13 +1,13 @@
 import os
 from pathlib import Path
 
-from decouple import Config
+from dotenv import load_dotenv
 
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-config = Config(".env")
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 
